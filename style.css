@@ -1,0 +1,581 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+    /* HEADER */
+header {
+    display: flex;
+    height: 150px;
+    padding: 30px 80px 30px 80px;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+header .links {
+    /* width: 535px; */
+    width: 40%;
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .links .head-line{
+    color: #000;
+    opacity: 0.61;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 407px;
+    height: 47px;
+}
+
+header .links .head-line .number a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+header .links .head-line .networks{
+    display: flex;
+    width: 181px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .networks  #facebook{
+    width: 15px;
+    height: 23px;
+}
+
+header .networks  #insta{
+    width: 24px;
+    height: 23px;
+}
+
+header .networks  #vk{
+    width: 25px;
+    height: 24px;
+}
+
+header .networks  #viber{
+    width: 24px;
+    height: 23px;
+}
+
+header .foot-line .navigation{
+    display: flex;
+    width: 650px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .foot-line .navigation a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+header .foot-line .navigation a:first-child {
+    font-weight: bold;
+}
+
+
+header #logo {
+    width: 201px;
+    height: 88px;
+}
+
+header #backet {
+    margin: auto 0px;
+    width: 76px;
+    height: 71px;
+}
+
+/*ACTIONS*/
+
+main .action {
+    height: 865px;
+    display: flex;    
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 27px;
+    line-height: 27px;
+    padding: 150px 80px;
+    justify-content: space-between;
+}
+
+main .first-action {
+   background-color: #000000;
+}
+
+main .second-action {
+    background-image: url(images/phone.png);
+}
+
+main .third-action {
+    background-image: url(images/map.png);
+}
+
+main .action h1 {
+    width: 916px;
+    font-size: 91px;
+    font-weight: bolder;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+main .action .text p {
+    opacity: 0.8;
+}
+
+main .action .text {
+    width: 616px; 
+}
+
+main .action .button {
+    background-color: #EA9516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+    width: 302px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 38px #f1b355;
+}
+
+main .action .button-click {
+    align-self: flex-end;
+}
+
+main .action a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*REASONS*/
+
+main .reasons {
+    padding: 80px;
+}
+
+main .reasons h1{
+    font-size: 85px;
+    font-weight: bolder;
+    line-height: 85px;
+    margin-bottom: 80px;
+}
+
+main .list-of-reasons {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .list-of-reasons .reason {
+    width: 400px;
+    height: 466px;
+    border-radius: 31px;
+    box-shadow: 0 0 38px rgb(141, 140, 140);
+    padding: 20px 35px;
+}
+
+main .list-of-reasons .reason h2 {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+main .list-of-reasons .reason p{
+    font-size: 22px;
+}
+
+/*SLOGAN*/
+
+main  .slogan{
+    height: 450px;
+    background-color: #000000;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 27px;
+    line-height: 27px;
+    padding: 100px 80px;
+}
+
+main .slogan h1 {
+    width: 1216px;
+    font-size: 91px;
+    font-weight: bolder;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+main .slogan p {
+    width: 700px;
+    opacity: 0.8;
+}
+
+/*CATALOG*/
+
+main .catalog {
+    padding: 80px;
+}
+
+main .catalog h1{
+    font-size: 85px;
+    font-weight: bolder;
+    line-height: 85px;
+    margin-bottom: 80px;
+}
+
+main .goods {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+main .catalog a {
+    text-decoration: none;
+    color: #000;
+}
+
+main .goods .good {
+    width: 300px;
+    height: 366px;
+    border-radius: 31px;
+    box-shadow: 0 0 38px rgb(141, 140, 140);
+    padding: 20px 35px;
+}
+
+main .goods .good h2 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 635;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+main .goods .good img {
+    margin: 0px auto;
+}
+
+main .goods .good:last-child img{
+    width: 200px;
+}
+
+main .catalog .button {
+    background-color: #EA9516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+    width: 302px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: bold;
+    margin: 0px auto;
+    box-shadow: 0 0 38px #f1b355;
+    width: 0px auto 90px auto;
+}
+
+/*REVIEWS*/
+
+main .reviews {
+    padding: 80px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+main .reviews h1{
+    font-size: 85px;
+    font-weight: bolder;
+    line-height: 85px;
+    margin-bottom: 80px;
+}
+
+main .reviews-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .reviews-list .review {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 736px;
+    border-radius: 31px;
+    box-shadow: 0 0 38px rgb(141, 140, 140);
+    padding: 30px 45px;
+    margin-bottom: 80px;
+}
+
+main .reviews-list .review img.avatar {
+    width: 139px;
+    margin: 0px auto;
+}
+
+main .reviews-list .review span {
+    
+    width: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto 15px auto;
+}
+
+main .reviews-list .review span a{
+    text-decoration: none;
+    color: #000;
+    font-size: 27px;
+}
+
+main .reviews-list .review img.stars {
+    width: 204px;
+    margin: 0px auto 15px auto;
+}
+
+main .reviews-list .review img.twit {
+    width: 45px;
+}
+
+main .reviews-list .review h2 {
+    text-align: center;
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+main .reviews-list .review p{
+    font-size: 22px;
+}
+
+main .reviews .button {
+    background-color: #EA9516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+    width: 302px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 0 38px #f1b355;
+    margin: 0px auto;
+}
+
+main .button-click {
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 150px;
+    padding: 30px 90px;
+    font-size: 20px;
+}
+
+footer .contacts {
+    width: 186px;
+}
+
+footer .networks p{
+    margin-bottom: 10px;
+}
+
+footer .networks {
+    width: 269px;
+}
+
+footer .network-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .network-list #facebook{
+    width: 22px;
+}
+
+footer .network-list #insta{
+    width: 36px;
+}
+
+footer .network-list #vk{
+    width: 38px;
+}
+
+footer .network-list #viber{
+    width: 36px;
+}
+
+footer .return{ 
+    background-color: #EA9516;
+    width: 89px;
+    height: 89px;
+    border-radius: 100%;
+    box-shadow: 0 0 38px #f1b355;
+}
+
+footer .return img {
+    margin: 15px auto;
+}
+
+@media screen and (max-width: 1080px) {
+    header {
+        height: 320px;
+    }
+
+    header .links .head-line {
+        margin-top: 65px;
+        width: 507px;
+        margin-left: -10px;
+    }
+
+    header .links .head-line .number a{
+        font-size: 40px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    header .links .head-line .networks{
+        display: none;
+    }
+      
+    header .foot-line .navigation{
+        width: 850px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -520px;
+        margin-top: 100px;
+    }
+
+    header .foot-line .navigation a{
+        font-size: 35px;
+    }
+    
+    header #logo {
+        margin: 30px 0px;
+        width: 281px;
+    }
+    
+    header #backet {
+        display: none;
+    }
+    
+    main .action .text p {
+        display: none;
+    }
+
+    main .action {
+        height: 550px;
+    }
+
+    main .action .button-click {
+        align-self: auto;
+        margin-top: 250px;
+    }
+
+    main .third-action {
+        height: 600px;
+    }
+
+    main .third-action .button-click {
+        align-self: auto;
+        margin-top: 300px;
+    }
+
+    main .slogan {
+        padding-top: 60px;
+        height: 300px;
+    }
+
+    main .slogan p {
+        display: none;
+    }
+
+    main .reviews .review{
+        width: 70%;
+        height: auto;
+    }
+
+    main .reviews .review p{
+        font-size: 35px;
+    }
+
+    main .reviews .review:last-child{
+        display: none;
+    }
+
+    main .reasons .reason {
+        height: auto;
+        width: 430px;
+    }
+    
+    main .reasons .reason p{
+        font-size: 35px;
+    }
+
+    main .reasons .reason h2{
+        font-size: 50px;
+    }
+
+    main .reasons .leave{
+        display: none;
+    }
+
+    main .goods {
+        width: 78%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 90px;
+    }
+
+    main .goods .good h2 {
+        font-size: 55px;
+        margin-top: 20px;
+    }
+
+    main .goods .good {
+        width: 300px;
+        height: 386px;
+        margin-bottom: 60px;
+    }
+
+    footer {
+        height: 230px;
+    }
+
+    footer .contacts {
+        width: 60%;
+    }
+
+    footer .networks {
+        width: 35%;
+    }
+
+    footer .contacts a, footer .contacts p {
+        font-size: 35px;
+    }
+    
+    footer .networks p {
+        font-size: 35px;
+    }
+
+    footer .return {
+        display: none;
+    }
+}
